@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Facebook" parallel="none">
+
+    <test name = "Facebook Features">
+
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="browserstack"/>
+        <parameter name="os" value="Mac"/>
+        <parameter name="os_version" value="Sierra"/>
+        <parameter name="browser_name" value="chrome"/>
+        <parameter name="browser_version" value="53.0"/>
+        <parameter name="url" value="http://facebook.com"/>
+
+        <classes>
+            <class name="testcases.TestHomePage"></class>
+            <!--<class name="testcases.TestSignUp"></class>-->
+            <!--<class name="testcases.TestLogin"></class>-->
+            <!--<class name="testcases.TestProfilePage"></class>-->
+        </classes>
+
+    </test>
+
+</suite>

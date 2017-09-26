@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/fahim/IdeaProjects/PNTAutomation/Amazon/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="Amazon" duration-ms="34765" started-at="2017-09-21T03:52:41Z" finished-at="2017-09-21T03:53:15Z">
+    <groups>
+    </groups>
+    <test name="Amazon features" duration-ms="34765" started-at="2017-09-21T03:52:41Z" finished-at="2017-09-21T03:53:15Z">
+      <class name="testcases.TestAmazonHome">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="extentSetup" is-config="true" duration-ms="5581" started-at="2017-09-20T23:52:35Z" finished-at="2017-09-20T23:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@516be40f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/fahim/IdeaProjects/PNTAutomation/Amazon/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="setUp" is-config="true" duration-ms="6961" started-at="2017-09-20T23:52:41Z" finished-at="2017-09-20T23:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="startExtent" is-config="true" duration-ms="7" started-at="2017-09-20T23:52:48Z" finished-at="2017-09-20T23:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAmazonHome.testSearchDropdownBoxWithSelect() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testSearchDropdownBoxWithSelect()[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="testSearchDropdownBoxWithSelect" duration-ms="8171" started-at="2017-09-20T23:52:48Z" finished-at="2017-09-20T23:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDropdownBoxWithSelect -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="447" started-at="2017-09-20T23:52:56Z" finished-at="2017-09-20T23:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchDropdownBoxWithSelect status=SUCCESS method=TestAmazonHome.testSearchDropdownBoxWithSelect()[pri:0, instance:testcases.TestAmazonHome@36f6e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="tearDown" is-config="true" duration-ms="113" started-at="2017-09-20T23:52:56Z" finished-at="2017-09-20T23:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="setUp" is-config="true" duration-ms="4526" started-at="2017-09-20T23:52:56Z" finished-at="2017-09-20T23:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-09-20T23:53:01Z" finished-at="2017-09-20T23:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAmazonHome.testSearchFor() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testSearchFor()[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="testSearchFor" duration-ms="14281" started-at="2017-09-20T23:53:01Z" finished-at="2017-09-20T23:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFor -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="afterEachTestMethod" is-config="true" duration-ms="62" started-at="2017-09-20T23:53:15Z" finished-at="2017-09-20T23:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchFor status=SUCCESS method=TestAmazonHome.testSearchFor()[pri:0, instance:testcases.TestAmazonHome@36f6e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="tearDown" is-config="true" duration-ms="179" started-at="2017-09-20T23:53:15Z" finished-at="2017-09-20T23:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testcases.TestAmazonHome@36f6e879]" name="generateReport" is-config="true" duration-ms="33" started-at="2017-09-20T23:53:20Z" finished-at="2017-09-20T23:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testcases.TestAmazonHome -->
+    </test> <!-- Amazon features -->
+  </suite> <!-- Amazon -->
+</testng-results>
